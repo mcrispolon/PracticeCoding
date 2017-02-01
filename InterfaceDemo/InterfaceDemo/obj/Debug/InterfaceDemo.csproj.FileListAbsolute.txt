@@ -1,0 +1,6 @@
+C:\Users\maryanncrispolon\Documents\Visual Studio 2013\Projects\InterfaceDemo\InterfaceDemo\bin\Debug\InterfaceDemo.exe.config
+C:\Users\maryanncrispolon\Documents\Visual Studio 2013\Projects\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.csprojResolveAssemblyReference.cache
+C:\Users\maryanncrispolon\Documents\Visual Studio 2013\Projects\InterfaceDemo\InterfaceDemo\bin\Debug\InterfaceDemo.exe
+C:\Users\maryanncrispolon\Documents\Visual Studio 2013\Projects\InterfaceDemo\InterfaceDemo\bin\Debug\InterfaceDemo.pdb
+C:\Users\maryanncrispolon\Documents\Visual Studio 2013\Projects\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.exe
+C:\Users\maryanncrispolon\Documents\Visual Studio 2013\Projects\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.pdb
