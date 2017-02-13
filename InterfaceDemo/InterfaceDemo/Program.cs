@@ -17,17 +17,80 @@ namespace InterfaceDemo
 
         static void Main(string[] args)
         {
-            int n = Convert.ToInt32(Console.ReadLine());
-            string[] arr_temp = Console.ReadLine().Split(' ');
-            int[] arr = Array.ConvertAll(arr_temp, Int32.Parse);
+            string[] input = { "5", "3" };//Console.ReadLine().Split(' ');
+            long n = Convert.ToInt64(input[0]); // list size
+            long m = Convert.ToInt64(input[1]); //no.Of Operation
 
-            long sum = 0;
-            for (int i = 0; i < n; i++)
+
+            long[][] arr = new long[3][] {
+                      new long[] { 1,2, 100},
+                     new long[] {2, 5, 100},
+                     new long[] { 3,4, 100 } };
+
+
+
+          
+            long[][] maxList = new long[m][];
+            // List<long> crushList = new List<long>();
+            // crushList.AddRange(new long[n].ToList());
+            long max = 0;
+            for (int m_i = 0; m_i < m; m_i++)
             {
-                sum += arr[i];
+                //string[] a_temp = Console.ReadLine().Split(' ');
+                long[] a = arr[m_i];//Array.ConvertAll(a_temp, Int32.Parse);
+
+
+                long fromIndex = a[0];
+                long toIndex = a[1];
+                long value = a[2];
+
+
+                long[] updateList = new long[n];
+                updateList[fromIndex-1] = value;
+                updateList[toIndex-1] = value;
+
+                maxList[m_i] = updateList;
+          
             }
-            Console.WriteLine(sum);
-                Console.ReadLine();
+            long[] finalList = new long[n];
+            for (int y = 0; y < m; y++)
+            {
+                var c = maxList[y];
+                for(int x = 0; x < c.Length; x++)
+                {
+                    finalList[x] += c[x];
+                    long tmp = finalList[x];
+                    if(tmp> max)
+                    {
+                        max = tmp;
+                    }
+                }
+            } 
+
+            //for (int l_i = Convert.ToInt32(fromIndex - 1); l_i < toIndex; l_i++)
+            //{
+
+            //    updateList[l_i] += value;
+            //    long tmp = updateList[l_i];
+
+            //    if (tmp > max)
+            //    {
+            //        max = tmp;
+            //    }
+            //}
+            //for (int y = 0; y < n; y++)
+            //{
+            //    long tmp = updateList[y];
+
+            //    if (tmp > max)
+            //    {
+            //        max = tmp;
+            //    }
+            //}
+
+            Console.WriteLine(max);
+
+            Console.ReadLine();
         }
         #region "Fibonacci"
         static void run(int x, int y)
@@ -321,7 +384,7 @@ namespace InterfaceDemo
 
         #region "Very Long Sum"
 
-         void ComputeLongSum()
+        void ComputeLongSum()
         {
             string[] tokens_n = Console.ReadLine().Split(' ');
             int n = Convert.ToInt32(tokens_n[0]);

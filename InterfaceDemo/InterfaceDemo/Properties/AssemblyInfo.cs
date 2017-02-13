@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("InterfaceDemo")]
+[assembly: AssemblyTitle("HackerRank")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Deltek, Inc.")]
-[assembly: AssemblyProduct("InterfaceDemo")]
+[assembly: AssemblyProduct("HackerRank")]
 [assembly: AssemblyCopyright("Copyright © Deltek, Inc. 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

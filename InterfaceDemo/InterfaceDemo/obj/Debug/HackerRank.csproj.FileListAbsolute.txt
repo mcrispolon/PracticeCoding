@@ -1,0 +1,6 @@
+C:\maryann\mary\Practice\PracticeCoding\InterfaceDemo\InterfaceDemo\bin\Debug\HackerRank.exe.config
+C:\maryann\mary\Practice\PracticeCoding\InterfaceDemo\InterfaceDemo\bin\Debug\HackerRank.exe
+C:\maryann\mary\Practice\PracticeCoding\InterfaceDemo\InterfaceDemo\bin\Debug\HackerRank.pdb
+C:\maryann\mary\Practice\PracticeCoding\InterfaceDemo\InterfaceDemo\obj\Debug\HackerRank.exe
+C:\maryann\mary\Practice\PracticeCoding\InterfaceDemo\InterfaceDemo\obj\Debug\HackerRank.pdb
+C:\maryann\mary\Practice\PracticeCoding\InterfaceDemo\InterfaceDemo\obj\Debug\HackerRank.csprojResolveAssemblyReference.cache

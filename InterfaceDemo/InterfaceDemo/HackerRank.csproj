@@ -7,8 +7,8 @@
     <ProjectGuid>{93655814-1048-4A0E-9B2E-F6FEAA74D010}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>InterfaceDemo</RootNamespace>
-    <AssemblyName>InterfaceDemo</AssemblyName>
+    <RootNamespace>HackerRank</RootNamespace>
+    <AssemblyName>HackerRank</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
